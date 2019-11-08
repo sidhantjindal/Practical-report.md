@@ -332,4 +332,103 @@
                      volume=2352
   
 -----------------------------------------------------------------------------------------------------------------------------------
-# 
+# PROGRAM TO CHECK PRIME NUMBER
+        
+        
+        #include<stdio.h>
+         int main()
+        {
+         int n;
+
+        printf("enter number");
+        scanf("%d",&n);
+
+        for(int i=1;i<n;i++)
+          {
+                if(n%i!=0)
+          {  printf("no is prime");
+                             break;  }
+           else
+            {
+                printf("no is not prime");
+                                    break;  }
+                  }
+
+                 return 0;
+          }
+## OUTPUT OF PROGRAM
+
+           enter number15
+           no is not prime
+---------------------------------------------------------------------------------------------------------------------------------------
+
+# PROGRAM TO PRINT NUMBERS USING WHILE LOOP
+        
+        
+        #include<stdio.h>
+         int main()
+       {
+         int n=1;
+
+        while(n<=10)
+        {
+          printf("%d\n",n);
+           n++;
+          }
+        return 0;
+         }
+ # OUTPUT OF PROGRAM
+
+                    1
+                    2
+                    3
+                    4
+                    5
+                    6
+                    7
+                    8
+                    9
+                   10
+--------------------------------------------------------------------------------------------------------------------------------------
+
+# PROGRAM TO PRINT NUMBERS USING DO WHILE LOOP
+    
+     #include<stdio.h>
+      int main()
+     {
+       int i=1;
+       do{
+          printf("%d\n",i);
+           i++;
+               }
+         while(i<=20);
+      return 0;
+      }
+      
+## OUTPUT OF PROGRAM
+
+                      1
+                      2
+                      3
+                      4
+                      5
+                      6
+                      7
+                      8
+                      9
+                      10
+                      11
+                      12
+                      13
+                      14
+                      15
+                      16
+                      17
+                      18
+                      19
+                      20
+----------------------------------------------------------------------------------------------------------------------------------------
+
+# PROGRAM FOR LINEAR SEARCH
+
+
