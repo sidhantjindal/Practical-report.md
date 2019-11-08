@@ -12,7 +12,7 @@
 
 ------------------------------------------------------------------------------------------------------------------------
 
-# PROGRAM TO PRINT HELLO WORLD
+# 1.PROGRAM TO PRINT HELLO WORLD
 
          include<stdio.h>
          void main()
@@ -24,7 +24,7 @@
          
          hello world
 --------------------------------------------------------------------------------------------------------------------------------
-# PROGRAM TO PRINT MULTIPLICATION TABLE
+# 2.PROGRAM TO PRINT MULTIPLICATION TABLE
 
           #include <stdio.h>
            int main()
@@ -55,7 +55,7 @@
                
  -------------------------------------------------------------------------------------------------------------------------
  
- # PROGRAM TO ADD 2 NUMBERS
+ # 3.PROGRAM TO ADD 2 NUMBERS
  
           #include<stdio.h>
            int main()
@@ -76,7 +76,7 @@
          Sum of the numbers = 24
          
  ------------------------------------------------------------------------------------------------------------------------------
- # PROGRAM FOR ARITHMATIC OPERATIONS
+ # 4.PROGRAM FOR ARITHMATIC OPERATIONS
               #include<stdio.h>
                int main()
               { 
@@ -101,7 +101,7 @@
            Diff of 2 numbers=-3
            product of 2 numbers=180
 ----------------------------------------------------------------------------------------------------------------------------------------
-# PROGRAM TO PRINT A TO Z
+# 5.PROGRAM TO PRINT A TO Z
 
         #include<stdio.h>
          int main()
@@ -144,7 +144,7 @@
                   Z
 
 --------------------------------------------------------------------------------------------------------------------------------
-# PROGRAM TO FIND DIVIDEND AND DIVISOR
+# 6.PROGRAM TO FIND DIVIDEND AND DIVISOR
 
        #include <stdio.h>
         double main()
@@ -168,7 +168,7 @@
              quotient=10.00
              reminder=4.00
 -----------------------------------------------------------------------------------------------------------------------------------
-# PROGRAM TO CHECK EVEN ODD NUMBER
+# 7.PROGRAM TO CHECK EVEN ODD NUMBER
   
   
          #include<stdio.h>
@@ -188,7 +188,7 @@
          number is even
  -------------------------------------------------------------------------------------------------------------------------------------- 
  
- # PROGRAM TO FIND MAXIMUM NUMBER
+ # 8.PROGRAM TO FIND MAXIMUM NUMBER
             
             
             #include<stdio.h>
@@ -211,7 +211,7 @@
                  Anwser=15
  -----------------------------------------------------------------------------------------------------------------------------------
  
- # PROGRAM TO FIND MINIMUM OF TWO NUMBERS
+ # 9.PROGRAM TO FIND MINIMUM OF TWO NUMBERS
               
               
               #include<stdio.h>
@@ -235,7 +235,7 @@
                   Anwser=14
  -----------------------------------------------------------------------------------------------------------------------------
   
-  # PROGRAM TO PRONT CALCULATOR
+  # 10.PROGRAM TO PRINT CALCULATOR
                 
                 
                 #include<stdio.h>
@@ -268,7 +268,7 @@
          
 -------------------------------------------------------------------------------------------------------------------
 
-# PROGRAM TO PRINT FACE
+# 11.PROGRAM TO PRINT FACE
 
               #include<stdio.h>
                void main()
@@ -298,7 +298,7 @@
               
 ----------------------------------------------------------------------------------------------------------------------------------
 
-# PROGRAM TO PRINT LINE OF ANY LENGTH
+# 12.PROGRAM TO PRINT LINE OF ANY LENGTH
 
           #include<stdio.h>
            int main()
@@ -319,7 +319,7 @@
                  enter length of line=12
                   ____________________________________________________________
 ----------------------------------------------------------------------------------------------------------------------------------------
-# PROGRAM TO FIND SUN OF N NATURAL NUMBERS
+# 13.PROGRAM TO FIND SUN OF N NATURAL NUMBERS
          
          #include<stdio.h>
          int main()
@@ -339,7 +339,7 @@
          78
 
 ----------------------------------------------------------------------------------------------------------------------------
-#      PROGRAM TO FIND PERIMETER,AREA AND VOLUME OF RECTANGLE
+# 14.PROGRAM TO FIND PERIMETER,AREA AND VOLUME OF RECTANGLE
 
                 #include<stdio.h>
                 int main()
@@ -368,7 +368,7 @@
 
                      volume=2352
    ----------------------------------------------------------------------------------------------------------------------------
-  # PROGRAM TO FIND PERIMETER ANSD AREA OF CIRCLE
+  # 15.PROGRAM TO FIND PERIMETER ANSD AREA OF CIRCLE
   
              #include<stdio.h>
               int main()
@@ -388,7 +388,7 @@
       Perimeter of circle=44.00
       Area=154.00
 -----------------------------------------------------------------------------------------------------------------------------------
-# PROGRAM TO FIND POWER OF A NUMBER
+# 16.PROGRAM TO FIND POWER OF A NUMBER
          
          #include<stdio.h>
          int main()
@@ -414,7 +414,7 @@
          Enter exponent5
          awnser=32
 -----------------------------------------------------------------------------------------------------------------------------------
-# PROGRAM TO CHECK PRIME NUMBER
+# 17.PROGRAM TO CHECK PRIME NUMBER
         
         
         #include<stdio.h>
@@ -444,7 +444,7 @@
            no is not prime
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-# PROGRAM TO PRINT NUMBERS USING WHILE LOOP
+# 18.PROGRAM TO PRINT NUMBERS USING WHILE LOOP
         
         
         #include<stdio.h>
@@ -473,7 +473,7 @@
                    10
 --------------------------------------------------------------------------------------------------------------------------------------
 
-# PROGRAM TO PRINT NUMBERS USING DO WHILE LOOP
+# 19.PROGRAM TO PRINT NUMBERS USING DO WHILE LOOP
     
      #include<stdio.h>
       int main()
@@ -511,7 +511,7 @@
                       20
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-# PROGRAM FOR LINEAR SEARCH
+# 20.PROGRAM FOR LINEAR SEARCH
 
      #include<stdio.h>
       int main()
@@ -546,7 +546,7 @@
 
           element not found
 --------------------------------------------------------------------------------------------------------------------------------------
-## PROGRAM FOR BINARY SEARCH
+## 21.PROGRAM FOR BINARY SEARCH
 
        #include <stdio.h>
         int main()
