@@ -282,4 +282,54 @@
 
 # PROGRAM TO PRINT LINE OF ANY LENGTH
 
+          #include<stdio.h>
+           int main()
+           {
+           int a;
+           printf("enter length of line=");
+           scanf("%d",&a);
+           for(int  i=1;i<=a;i++)
+           {
+           printf("_____");
+           }
+           printf("\n\n");
+           return 0;
+            }
+
+## OUTPUT OF PROGRAM
+                 
+                 enter length of line=12
+                  ____________________________________________________________
+
+----------------------------------------------------------------------------------------------------------------------------
+#      PROGRAM TO FIND PERIMETER,AREA AND VOLUME OF RECTANGLE
+
+                #include<stdio.h>
+                int main()
+               {
+                int a,b,c,peri,area,vol;
+                printf("enter length,bredth and height of rectangle", a,b,c );
+                scanf("%d%d%d",&a ,&b ,&c);
+                  peri= 2*(a+b);
+                  area=a*b;
+                  vol=a*b*c;
+                printf("\nperimeter=%d\n\n", peri);
+                printf("area=%d\n\n",area); 
+                printf("volume=%d\n\n", vol);
+                return 0;
+                }
+
+## OUTPUT OF PROGRAM
+
+                    enter length,bredth and height of rectangle12
+                                 14
+                                 14
+
+                     perimeter=52
+
+                     area=168 
+
+                     volume=2352
   
+-----------------------------------------------------------------------------------------------------------------------------------
+# 
