@@ -167,7 +167,25 @@
 
              quotient=10.00
              reminder=4.00
-             
+-----------------------------------------------------------------------------------------------------------------------------------
+# PROGRAM TO CHECK EVEN ODD NUMBER
+  
+  
+         #include<stdio.h>
+         int main()
+         {
+         int a;
+         printf("enter the number=", a);
+         scanf("%d", &a);
+         if (a%2==0)
+         printf("number is even\n\n");
+         else
+         printf("number is odd\n\n");
+         return 0;
+         }
+ ## OUTPUT OF PROGRAM
+         enter the number=12
+         number is even
  -------------------------------------------------------------------------------------------------------------------------------------- 
  
  # PROGRAM TO FIND MAXIMUM NUMBER
@@ -300,6 +318,25 @@
                  
                  enter length of line=12
                   ____________________________________________________________
+----------------------------------------------------------------------------------------------------------------------------------------
+# PROGRAM TO FIND SUN OF N NATURAL NUMBERS
+         
+         #include<stdio.h>
+         int main()
+         {
+         int n,sum;
+         printf("enter number=",n);
+         scanf("%d",&n);
+         sum=n*(n+1)/2;
+         printf("\n%d\n\n",sum);
+         return 0;
+         }
+
+## OUTPUT OF PROGRAM
+
+         enter number=12
+
+         78
 
 ----------------------------------------------------------------------------------------------------------------------------
 #      PROGRAM TO FIND PERIMETER,AREA AND VOLUME OF RECTANGLE
@@ -330,7 +367,52 @@
                      area=168 
 
                      volume=2352
+   ----------------------------------------------------------------------------------------------------------------------------
+  # PROGRAM TO FIND PERIMETER ANSD AREA OF CIRCLE
   
+             #include<stdio.h>
+              int main()
+             {
+              float a,pi=22/7.0,peri,area;
+              printf("enter radius=");
+              scanf("%f", &a);
+              peri=2*pi*a;
+              area=pi*a*a;
+              printf("Perimeter of circle=%.2f\n", peri );
+              printf("Area=%.2f\n", area);
+              return 0;
+             } 
+ ## OUTPUT OF PROGRAM
+ 
+      enter radius=7
+      Perimeter of circle=44.00
+      Area=154.00
+-----------------------------------------------------------------------------------------------------------------------------------
+# PROGRAM TO FIND POWER OF A NUMBER
+         
+         #include<stdio.h>
+         int main()
+         {
+         int base,exp;
+         int result=1;
+         printf("\nEnter base number\n");
+         scanf("%d",&base);
+         printf("Enter exponent");
+         scanf("%d",&exp); 
+         while (exp!=0)
+         {
+         result *=base;
+         exp--;
+         }
+         printf("awnser=%d\n", result);
+         return 0;
+         }
+## OUTPUT OF PROGRAM
+
+         Enter base number
+         2
+         Enter exponent5
+         awnser=32
 -----------------------------------------------------------------------------------------------------------------------------------
 # PROGRAM TO CHECK PRIME NUMBER
         
@@ -431,4 +513,89 @@
 
 # PROGRAM FOR LINEAR SEARCH
 
+     #include<stdio.h>
+      int main()
+     {
+       int sidhant[15]={1,4,48,78,45,12,14,15,20,21,3,5,7,2,9};
+       int size=15;
+       int flag=0;
+       int item,a,i;
+       printf("enter number you want to find=");
+       scanf("%d",&a);
+       for(int i=0;i<size;i++)
+    {
+        if(a==sidhant[i])
+        {
+            flag++; 
+         }
+         }
+         if (flag>0){
+         printf("\nserach is sucessfull\n");}
+         else{
+         printf("\nelement not found\n");}
+         return 0;
+         }
+        
+ ## OUTPUT OF PROGRAM  
+ 
+       enter number you want to find=12
 
+        serach is sucessfull
+      1914109@computer-centre:~/public_html/PPS/Content/Programs/Week02/1914109$ ./a.out 
+          enter number you want to find=100
+
+          element not found
+--------------------------------------------------------------------------------------------------------------------------------------
+## PROGRAM FOR BINARY SEARCH
+
+       #include <stdio.h>
+        int main()
+       {
+         int a[10],i,s,l,n,f,m=0;
+         printf("number of element in array");
+         scanf("%d",&n);
+         for(i=0;i<n;i++)
+         {
+         printf("enter [%d] element=",i);
+         scanf("%d",&a[i]);
+         }
+         printf("enter element to be searched");
+         scanf("%d",&s);
+         f=0;
+         l=n-1;
+         m=(f+l)/2;
+         while(f<=l)
+         {
+         if(a[m]>s)
+         {
+         l=m-1;
+         }
+         else if(a[m]<s)
+         {
+         f=m+1;
+         }
+         if (a[m]=s)
+         {
+         printf("location of given element is %d\n",m);
+         break;
+         }
+         else
+         l =m-1;
+         m = (f + l)/2;
+          }
+         if (f > l)
+         printf("Not found! %d isn't present in the list.\n", s);
+ 
+         return 0;  
+         }
+         
+  ## OUTPUT OF PROGRAM
+         number of element in array5
+         enter [0] element=1
+         enter [1] element=2
+         enter [2] element=3
+         enter [3] element=4
+         enter [4] element=5
+         enter element to be searched3
+         location of given element is 3
+----------------------------------------------------------------------------------------------------------------------------------
