@@ -602,10 +602,28 @@
          location of given element is 3
 ----------------------------------------------------------------------------------------------------------------------------------
 # 22. PROGRAM TO PRINT ODD NUMBERS USING DO WHILE LOOP
+                                                                                                                             } 
+       #include<stdio.h>
+       int main()
+       {
+       int a=1,b,c;
+       printf("enter number:");
+       scanf("%d",&b);
+       do{
+       if (a%2!=0)
+       printf("%d",a);
 
-
-                      #include<stdio.h>                                                                                                                         int main()                                                                                                                              {                                                                                                                                          int a=1,b,c;                                                                                                                          printf("enter number:");                                                                                                                scanf("%d",&b);                                                                                                                          do{                                                                                                                                      if (a%2!=0)                                                                                                                              printf("%d",a);                                                                                                                          else                                                                                                                                    printf("\n");                                                                                                                            a++;                                                                                                                                  }                                                                                                                                          while                                                                                                                                    (a<=b);                                                                                                                                  return 0;                                                                                                                              }                                                                                                                                                       
-## OUTPUT OF PROGRAM                      
+      else
+      printf("\n");
+      a++;
+      }
+      while 
+      (a<=b);
+      return 0;
+      }
+      
+      
+## OUTPUT OF PROGRAM 
          enter number:15
          1
          3
@@ -615,3 +633,136 @@
          11
          13
          15
+----------------------------------------------------------------------------------------------------------------------------------------
+
+# 23. PROGRAM TO PRINT EVEN NUMBERS USING DO WHILE LOOP
+         include<stdio.h>
+         int main()
+         {
+         int a=1,b,c;
+         printf("enter number:");
+         scanf("%d",&b);
+         do{
+         if (a%2==0)
+         printf("%d",a);
+         else
+         printf("\n");
+         a++;
+         }
+         while
+         (a<=b);
+         return 0;
+         }
+## OUTPUT OF PROGRAM
+         enter number:15
+         2
+         4
+         6
+         8
+         10
+         12
+         14
+-------------------------------------------------------------------------------------------------------------------------------------
+# 24. PROGRAM OF CALCULATOR USING CASE SWITCH STATEMENT
+         #include<stdio.h>
+         int main()
+         {
+         int a,b,c,d;
+         printf("Enter 1 addition.2 subtraction,3 multiplication,4 division");
+         scanf("%d",&a);
+         switch(a)
+         {
+         case 1:; if(a=1)
+         {
+         printf("enter two numbers");
+         scanf("%d%d",&b,&c);
+         d=b+c;
+         printf("sum=%d",d);
+         break;
+         }
+         case 2: if(a=2)
+         {
+         printf("enter two numbers");
+         scanf("%d%d",&b,&c);
+         d=b-c; 
+         printf("diffrence=%d",d); 
+         break;
+         }
+         case 3: if(a=3) 
+         {
+         printf("enter two numbers");
+         scanf("%d%d",&b,&c);
+         d=b*c;
+         printf("product=%d",d); 
+         break;
+         }
+         case 4:if(a=4)
+         {
+         printf("enter two numbers");
+         scanf("%d%d",&b,&c);
+         d=b/c;
+         printf("quotient=%d",d); 
+         break;   
+         }
+         default:
+         printf("sorry");
+         }
+         return 0;
+         }
+## OUTPUT OF PROGRAM
+
+         Enter 1 addition.2 subtraction,3 multiplication,4 division2
+                  enter two numbers15
+                           1
+                    diffrence=14
+------------------------------------------------------------------------------------------------------------------------------------
+# 25. PROGRAM TO FIND AVERAGE OF N NUIMBERS
+         #include<stdio.h>
+         int main()
+         {
+
+         float a,b,sum=0;
+         float c;
+         printf("enter number");
+         scanf("%f",&a);
+         for(b=1;b<=a;b++)
+         {
+         sum+=b;  
+         }
+         c=sum/a;
+         printf("average=%0.3f",c);
+
+         return 0;
+         }
+## OUTPUT OF PROGRAM
+         enter number14
+         average=7.500
+-------------------------------------------------------------------------------------------------------------------------------------
+#  17. PROGRAM TO SWAP TWO NUMBERS USING CALL BY VALUE
+
+         #include <stdio.h>
+         int main()
+         {
+         int x, y, t;
+      printf("\n\nEnter two integers: ");
+      scanf("%d %d", &x, &y);
+      printf("\n\nBefore Swapping: \nFirst integer = %d\nSecond integer = %d\n", x, y);
+      t = x;
+      x = y;
+      y = t;
+      printf("\n\nAfter Swapping: \nFirst integer = %d\nSecond integer = %d\n", x, y);
+      return 0;
+    }
+
+
+### OUTPUT OF PROGRAM
+
+    Enter two integers: 2050
+
+    Before Swapping:
+    First integer = 2
+    Second integer = 50
+     
+    After swapping
+    First integer = 50
+    Second integer = 2
