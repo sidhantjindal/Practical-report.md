@@ -16,13 +16,13 @@
 
 # 1.PROGRAM TO PRINT HELLO WORLD
 
-       '''C
+       ```C
        include<stdio.h>
          void main()
          {
          puts("hello world\n");
          }
-         '''
+         ```
         
 ## OUTPUT OF PROGRAM         
          
