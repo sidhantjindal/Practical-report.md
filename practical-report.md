@@ -738,7 +738,7 @@
          enter number14
          average=7.500
 -------------------------------------------------------------------------------------------------------------------------------------
-#  17. PROGRAM TO SWAP TWO NUMBERS USING CALL BY VALUE
+#  26. PROGRAM TO SWAP TWO NUMBERS USING CALL BY VALUE
 
          #include <stdio.h>
          int main()
@@ -766,3 +766,62 @@
     After swapping
     First integer = 50
     Second integer = 2
+--------------------------------------------------------------------------------------------------------------------------------
+# 27. PROGRAM TO FIND FACTORIAL OF A NUMBER
+         include<stdio.h>
+         int main()
+         {
+         int a, b=1, c;
+         printf("Enter  number \n"); 
+         scanf("%d", &a); 
+         for(int i=1;i<=a;i++)
+         {
+         b*=i;
+         }
+         printf("factorial=%d\n", b);
+         return 0;
+         }
+## OUTPUT OF PROGRAM
+         enter  number 
+         3
+         factorial=6
+-----------------------------------------------------------------------------------------------------------------------------------
+# PROGRAM FOR BUBBLE SORTING
+         #include<stdio.h>
+         int main()
+         {
+         int a[5],i,j,k;
+         printf("Enter elements of an aaray=\n");
+         for(int c=0;c<5;c++)
+         {
+         scanf("%d",&a[c]);
+         }
+         printf("output");
+         for(i=0;i<5;i++)
+         {
+         for(j=i+1;j<5;j++)
+         {
+         if(a[i]>a[j])
+         {
+         k=a[i];
+         a[i]=a[j];
+         a[j]=k;
+         }}}
+         for(i=0;i<5;i++)
+         printf("%d\n",a[i]);
+         return 0;
+         }
+## OUTPUT OF PROGRAM
+         Enter elements of an aaray=
+         1
+         14
+         2
+         3
+         4
+         output
+         1
+         2
+         3
+         4
+         14
+---------------------------------------------------------------------------------------------------------------------------------------         
