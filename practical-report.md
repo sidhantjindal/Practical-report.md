@@ -21,7 +21,8 @@
          void main()
          {
          puts("hello world\n");
-         }'''
+         }
+         '''
         
 ## OUTPUT OF PROGRAM         
          
