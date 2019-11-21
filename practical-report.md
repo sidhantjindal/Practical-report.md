@@ -548,7 +548,7 @@
 
           element not found
 --------------------------------------------------------------------------------------------------------------------------------------
-## 21.PROGRAM FOR BINARY SEARCH
+# 21.PROGRAM FOR BINARY SEARCH
 
        #include <stdio.h>
         int main()
@@ -601,3 +601,17 @@
          enter element to be searched3
          location of given element is 3
 ----------------------------------------------------------------------------------------------------------------------------------
+# 22. PROGRAM TO PRINT ODD NUMBERS USING DO WHILE LOOP
+
+
+                      #include<stdio.h>                                                                                                                         int main()                                                                                                                              {                                                                                                                                          int a=1,b,c;                                                                                                                          printf("enter number:");                                                                                                                scanf("%d",&b);                                                                                                                          do{                                                                                                                                      if (a%2!=0)                                                                                                                              printf("%d",a);                                                                                                                          else                                                                                                                                    printf("\n");                                                                                                                            a++;                                                                                                                                  }                                                                                                                                          while                                                                                                                                    (a<=b);                                                                                                                                  return 0;                                                                                                                              }                                                                                                                                                       
+## OUTPUT OF PROGRAM                      
+         enter number:15
+         1
+         3
+         5        
+         7
+         9
+         11
+         13
+         15
