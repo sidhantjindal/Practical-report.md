@@ -16,11 +16,11 @@
 
 # 1.PROGRAM TO PRINT HELLO WORLD
 
-         include<stdio.h>
+       '''c  include<stdio.h>
          void main()
          {
          puts("hello world\n");
-         }
+         }'''
         
 ## OUTPUT OF PROGRAM         
          
@@ -824,4 +824,60 @@
          3
          4
          14
+---------------------------------------------------------------------------------------------------------------------------------------         
+# PROGRAM FOR MATRIX MULTIPLICATION
+         #include<stdio.h>
+         int main()
+         {
+         int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,A,B,C,D,E,F,G,H,I;
+         printf("enter first matrix:\n");
+         scanf("%d%d%d%d%d%d%d%d%d\n" ,&a,&b,&c,&d,&e,&f,&g,&h,&i );
+         printf("enter second matrix:\n");
+         scanf("%d%d%d%d%d%d%d%d%d\n",&j,&k,&l,&m,&n,&o,&p,&q,&r);
+         A=a*j+b*m+c*p;
+         B=a*k+b*n+c*q;
+         C=a*l+b*o+c*r;
+         D=d*j+e*m+f*p;
+         E=d*k+e*n+f*q;
+         F=d*l+e*o+f*r;
+         G=g*j+h*m+i*p;
+         H=g*k+h*n+i*q;
+         I=g*l+h*o+i*r;
+         printf("\n\nResultant matrix:\n\n");
+         printf("\n\n|%d  %d  %d |\n",A,B,C);
+         printf("|%d  %d  %d |\n",D,E,F);
+         printf("|%d  %d  %d |\n\n",G,H,I);
+         return 0;
+         }
+## OUTPUT OF PROGRAM
+         enter first matrix:
+         1
+         1
+         1
+         1
+         1
+         1
+         1
+         1
+         1
+         1
+         enter second matrix:
+         1
+         1
+         1
+         1
+         1
+         1
+         1
+         1
+         1
+
+
+         Resultant matrix:
+
+
+
+         |3  3  3 |
+         |3  3  3 |
+         |3  3  3 |
 ---------------------------------------------------------------------------------------------------------------------------------------         
