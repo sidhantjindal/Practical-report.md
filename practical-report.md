@@ -321,7 +321,7 @@
                  enter length of line=12
                   ____________________________________________________________
 ----------------------------------------------------------------------------------------------------------------------------------------
-# 13.PROGRAM TO FIND SUN OF N NATURAL NUMBERS
+# 13.PROGRAM TO FIND SUM OF N NATURAL NUMBERS
          
          #include<stdio.h>
          int main()
