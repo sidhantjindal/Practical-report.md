@@ -16,7 +16,8 @@
 
 # 1.PROGRAM TO PRINT HELLO WORLD
 
-       '''c  include<stdio.h>
+       '''C
+       include<stdio.h>
          void main()
          {
          puts("hello world\n");
