@@ -24,11 +24,12 @@
  ```
         
 ## OUTPUT OF PROGRAM         
-         
+```c         
          hello world
+```
 --------------------------------------------------------------------------------------------------------------------------------
 # 2.PROGRAM TO PRINT MULTIPLICATION TABLE
-
+```c
           #include <stdio.h>
            int main()
            {
@@ -41,9 +42,9 @@
            }
            return 0;
            }
-
+```
 ## OUTPUT OF PROGRAM
-
+```c
              enter the number=12
                12 x 1=12
                12 x 2=24
@@ -55,11 +56,11 @@
                12 x 8=96
                12 x 9=108
                12 x 10=120
-               
+ ```              
  -------------------------------------------------------------------------------------------------------------------------
  
  # 3.PROGRAM TO ADD 2 NUMBERS
- 
+ ```c
           #include<stdio.h>
            int main()
           {
@@ -70,16 +71,17 @@
           printf("Sum of the numbers = %d\n", c);
           return 0;
           }
-
+```
 ## OUTPUT OF PROGRAM
-
+```c
          Enter two numbers to add
                       12
                       12
          Sum of the numbers = 24
-         
+ ```     
  ------------------------------------------------------------------------------------------------------------------------------
  # 4.PROGRAM FOR ARITHMATIC OPERATIONS
+ ```c
               #include<stdio.h>
                int main()
               { 
@@ -94,18 +96,19 @@
               printf("product of 2 numbers=%d\n",c);
               return 0;
               }
-
+```
 ## OUTPUT OF PROGRAM
-
+```c
            Enter two numbers
                12
                15
            Sum of the numbers = 27
            Diff of 2 numbers=-3
            product of 2 numbers=180
+```
 ----------------------------------------------------------------------------------------------------------------------------------------
 # 5.PROGRAM TO PRINT A TO Z
-
+```c
         #include<stdio.h>
          int main()
         {
@@ -116,9 +119,9 @@
           }
           return 0;
           }
-
+```
 ## OUTPUT OF PROGRAM
-
+```c
                   A 
                   B 
                   C 
@@ -145,10 +148,10 @@
                   X 
                   Y 
                   Z
-
+```
 --------------------------------------------------------------------------------------------------------------------------------
 # 6.PROGRAM TO FIND DIVIDEND AND DIVISOR
-
+```c
        #include <stdio.h>
         double main()
         {
@@ -164,15 +167,18 @@
        printf("reminder=%0.2f\n",d);
        return 0;
        }
+ ```      
  ## OUTPUT OF PROGRAM
-            enter dividend=124
+ ```c
+           enter dividend=124
             enter divisor=12
 
              quotient=10.00
              reminder=4.00
+```
 -----------------------------------------------------------------------------------------------------------------------------------
 # 7.PROGRAM TO CHECK EVEN ODD NUMBER
-  
+  ```c
   
          #include<stdio.h>
          int main()
@@ -186,13 +192,15 @@
          printf("number is odd\n\n");
          return 0;
          }
+ ```
  ## OUTPUT OF PROGRAM
-         enter the number=12
+ ```c        enter the number=12
          number is even
+ ```
  -------------------------------------------------------------------------------------------------------------------------------------- 
  
  # 8.PROGRAM TO FIND MAXIMUM NUMBER
-            
+```c        
             
             #include<stdio.h>
              int main ()
@@ -207,15 +215,18 @@
               printf("Anwser=%d\n",ret);
               return ret;
               }
+ ```             
 ## OUTPUT OF PROGRAM 
-
+```c
       enter two numbers=15
                         14
                  Anwser=15
+ 
+ ```
  -----------------------------------------------------------------------------------------------------------------------------------
  
  # 9.PROGRAM TO FIND MINIMUM OF TWO NUMBERS
-              
+ ```c             
               
               #include<stdio.h>
                int main ()
@@ -230,16 +241,17 @@
                printf("Anwser=%d\n",ret);
                return ret;
               }
-
+```
 ## OUTPUT OF PROGRAM
-
+```c
                  enter two numbers=14 
                    200
                   Anwser=14
- -----------------------------------------------------------------------------------------------------------------------------
+ ```
+ --------------------------------------------------------------------------------------------------------------------------
   
   # 10.PROGRAM TO PRINT CALCULATOR
-                
+ ```c               
                 
                 #include<stdio.h>
                   void main()
@@ -255,9 +267,9 @@
                     |     0     | * |\n\
                     |___________|___|\n");
                    }
-
+```
 ## OUTPUT OF PROGRAM
-
+```c
 
           _______________
          | 1 | 2 | 3 |   |
@@ -269,10 +281,11 @@
          |     0     | * |
          |___________|___|
          
+```
 -------------------------------------------------------------------------------------------------------------------
 
 # 11.PROGRAM TO PRINT FACE
-
+```c
               #include<stdio.h>
                void main()
              {
@@ -286,9 +299,9 @@
             puts("|       |      |");
             puts("|_______|______|\n");
             }
-            
+ ```           
   ## OUTPUT OF PROGRAM
-
+```c
               ________________
               |  XXXXXXXXX   |
               | (  ^    ^ )  |
@@ -299,10 +312,11 @@
               |       |      |
               |_______|______|
               
+```
 ----------------------------------------------------------------------------------------------------------------------------------
 
 # 12.PROGRAM TO PRINT LINE OF ANY LENGTH
-
+```c  
           #include<stdio.h>
            int main()
            {
@@ -316,14 +330,15 @@
            printf("\n\n");
            return 0;
             }
-
+```
 ## OUTPUT OF PROGRAM
-                 
+   ```c              
                  enter length of line=12
                   ____________________________________________________________
+```
 ----------------------------------------------------------------------------------------------------------------------------------------
 # 13.PROGRAM TO FIND SUM OF N NATURAL NUMBERS
-         
+   ```c      
          #include<stdio.h>
          int main()
          {
@@ -334,16 +349,16 @@
          printf("\n%d\n\n",sum);
          return 0;
          }
-
+```
 ## OUTPUT OF PROGRAM
-
+```c
          enter number=12
 
          78
-
+```
 ----------------------------------------------------------------------------------------------------------------------------
 # 14.PROGRAM TO FIND PERIMETER,AREA AND VOLUME OF RECTANGLE
-
+```c
                 #include<stdio.h>
                 int main()
                {
@@ -358,9 +373,9 @@
                 printf("volume=%d\n\n", vol);
                 return 0;
                 }
-
+```
 ## OUTPUT OF PROGRAM
-
+```c
                     enter length,bredth and height of rectangle12
                                  14
                                  14
@@ -370,9 +385,10 @@
                      area=168 
 
                      volume=2352
+   ```
    ----------------------------------------------------------------------------------------------------------------------------
   # 15.PROGRAM TO FIND PERIMETER ANSD AREA OF CIRCLE
-  
+  ```c
              #include<stdio.h>
               int main()
              {
@@ -385,14 +401,16 @@
               printf("Area=%.2f\n", area);
               return 0;
              } 
+ ```
  ## OUTPUT OF PROGRAM
- 
+ ```c
       enter radius=7
       Perimeter of circle=44.00
       Area=154.00
+```
 -----------------------------------------------------------------------------------------------------------------------------------
 # 16.PROGRAM TO FIND POWER OF A NUMBER
-         
+   ```c      
          #include<stdio.h>
          int main()
          {
@@ -410,15 +428,17 @@
          printf("awnser=%d\n", result);
          return 0;
          }
+ ```        
 ## OUTPUT OF PROGRAM
-
+```c
          Enter base number
          2
          Enter exponent5
          awnser=32
+```
 -----------------------------------------------------------------------------------------------------------------------------------
 # 17.PROGRAM TO CHECK PRIME NUMBER
-        
+   ```c     
         
         #include<stdio.h>
          int main()
@@ -441,14 +461,17 @@
 
                  return 0;
           }
+ ```         
 ## OUTPUT OF PROGRAM
-
+```c
            enter number15
            no is not prime
+
+```
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 # 18.PROGRAM TO PRINT NUMBERS USING WHILE LOOP
-        
+```c        
         
         #include<stdio.h>
          int main()
@@ -462,8 +485,9 @@
           }
         return 0;
          }
+  ```
  # OUTPUT OF PROGRAM
-
+```c
                     1
                     2
                     3
@@ -474,10 +498,11 @@
                     8
                     9
                    10
+```
 --------------------------------------------------------------------------------------------------------------------------------------
 
 # 19.PROGRAM TO PRINT NUMBERS USING DO WHILE LOOP
-    
+```c    
      #include<stdio.h>
       int main()
      {
@@ -489,9 +514,9 @@
          while(i<=20);
       return 0;
       }
-      
+ ```     
 ## OUTPUT OF PROGRAM
-
+```c
                       1
                       2
                       3
@@ -512,10 +537,11 @@
                       18
                       19
                       20
+```
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 # 20.PROGRAM FOR LINEAR SEARCH
-
+```c
      #include<stdio.h>
       int main()
      {
@@ -538,9 +564,9 @@
          printf("\nelement not found\n");}
          return 0;
          }
-        
+ ```       
  ## OUTPUT OF PROGRAM  
- 
+ ```c
        enter number you want to find=12
 
         serach is sucessfull
@@ -548,9 +574,10 @@
           enter number you want to find=100
 
           element not found
---------------------------------------------------------------------------------------------------------------------------------------
+```
+---------------------------------------------------------------------------------------------------------------------------------
 # 21.PROGRAM FOR BINARY SEARCH
-
+```c
        #include <stdio.h>
         int main()
        {
@@ -591,9 +618,9 @@
  
          return 0;  
          }
-         
+ ```     
   ## OUTPUT OF PROGRAM
-         number of element in array5
+ ```c        number of element in array5
          enter [0] element=1
          enter [1] element=2
          enter [2] element=3
@@ -601,9 +628,10 @@
          enter [4] element=5
          enter element to be searched3
          location of given element is 3
+```
 ----------------------------------------------------------------------------------------------------------------------------------
 # 22. PROGRAM TO PRINT ODD NUMBERS USING DO WHILE LOOP
-                                                                                                                             } 
+   ```c                                                                                                                          } 
        #include<stdio.h>
        int main()
        {
@@ -622,10 +650,12 @@
       (a<=b);
       return 0;
       }
+```      
       
       
 ## OUTPUT OF PROGRAM 
-         enter number:15
+```c     
+        enter number:15
          1
          3
          5        
@@ -634,10 +664,12 @@
          11
          13
          15
+```
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 # 23. PROGRAM TO PRINT EVEN NUMBERS USING DO WHILE LOOP
-         include<stdio.h>
+   ```c
+   include<stdio.h>
          int main()
          {
          int a=1,b,c;
@@ -654,8 +686,9 @@
          (a<=b);
          return 0;
          }
+```
 ## OUTPUT OF PROGRAM
-         enter number:15
+   ```c      enter number:15
          2
          4
          6
@@ -663,8 +696,10 @@
          10
          12
          14
+```
 -------------------------------------------------------------------------------------------------------------------------------------
 # 24. PROGRAM OF CALCULATOR USING CASE SWITCH STATEMENT
+   ```c
          #include<stdio.h>
          int main()
          {
@@ -710,14 +745,17 @@
          }
          return 0;
          }
+```
 ## OUTPUT OF PROGRAM
-
+```c
          Enter 1 addition.2 subtraction,3 multiplication,4 division2
                   enter two numbers15
                            1
                     diffrence=14
+```
 ------------------------------------------------------------------------------------------------------------------------------------
 # 25. PROGRAM TO FIND AVERAGE OF N NUIMBERS
+```c         
          #include<stdio.h>
          int main()
          {
@@ -735,12 +773,15 @@
 
          return 0;
          }
+```
 ## OUTPUT OF PROGRAM
+   ```c    
          enter number14
          average=7.500
--------------------------------------------------------------------------------------------------------------------------------------
+ ```
+ -------------------------------------------------------------------------------------------------------------------------------------
 #  26. PROGRAM TO SWAP TWO NUMBERS USING CALL BY VALUE
-
+```c
          #include <stdio.h>
          int main()
          {
@@ -755,9 +796,9 @@
       return 0;
     }
 
-
-### OUTPUT OF PROGRAM
-
+```
+## OUTPUT OF PROGRAM
+```c
     Enter two integers: 2050
 
     Before Swapping:
@@ -767,9 +808,11 @@
     After swapping
     First integer = 50
     Second integer = 2
+```
 --------------------------------------------------------------------------------------------------------------------------------
 # 27. PROGRAM TO FIND FACTORIAL OF A NUMBER
-         include<stdio.h>
+   ```c
+          #include<stdio.h>
          int main()
          {
          int a, b=1, c;
@@ -782,13 +825,17 @@
          printf("factorial=%d\n", b);
          return 0;
          }
+```
 ## OUTPUT OF PROGRAM
-         enter  number 
+   ```c
+        enter  number 
          3
          factorial=6
+```
 -----------------------------------------------------------------------------------------------------------------------------------
 # PROGRAM FOR BUBBLE SORTING
-         #include<stdio.h>
+ ```c
+     #include<stdio.h>
          int main()
          {
          int a[5],i,j,k;
@@ -812,8 +859,10 @@
          printf("%d\n",a[i]);
          return 0;
          }
+```
 ## OUTPUT OF PROGRAM
-         Enter elements of an aaray=
+   ```c 
+        Enter elements of an aaray=
          1
          14
          2
@@ -825,8 +874,10 @@
          3
          4
          14
+```
 ---------------------------------------------------------------------------------------------------------------------------------------         
 # PROGRAM FOR MATRIX MULTIPLICATION
+```c
          #include<stdio.h>
          int main()
          {
@@ -850,8 +901,10 @@
          printf("|%d  %d  %d |\n\n",G,H,I);
          return 0;
          }
+```
 ## OUTPUT OF PROGRAM
-         enter first matrix:
+```c
+        enter first matrix:
          1
          1
          1
@@ -881,4 +934,5 @@
          |3  3  3 |
          |3  3  3 |
          |3  3  3 |
+```
 ---------------------------------------------------------------------------------------------------------------------------------------         
