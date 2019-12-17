@@ -936,3 +936,77 @@
          |3  3  3 |
 ```
 ---------------------------------------------------------------------------------------------------------------------------------------         
+# PROGRAM FOR QUICK SORT USING RECURSION
+
+```c
+      #include<stdio.h>
+       void quicksort(int[],int,int);
+       int main()
+      {
+       int list [50];
+       int size,i;
+       printf("enter no of elements");
+       scanf("%d",&size);
+       for(i=0;i<size;i++)
+      {
+       scanf("%d",&list[i]);
+      }
+       quicksort(list,0,size-1);
+       printf("after applying sort");
+       for(i=0;i<size;i++)
+      {
+       printf("%d",list[i]);
+      }
+       printf("\n");
+       return 0;
+      }
+       void quicksort(int list[],int low,int high)
+      {
+       int pivot,i,j,temp;
+       if(low<high)
+      {
+       pivot=low;
+       i=low;
+       j=high;
+       while(i<j)
+      {
+       while(list[i]<=list[pivot]&&i<=high)
+      {
+      i++;
+      }
+       while(list[j]>list[pivot]&&j>=low)
+      {
+       j--;
+      }
+       if(i<j)
+      {
+       temp=list[i];
+       list[i]=list[j];
+       list[j]=temp;
+      }
+      }
+       temp=list[j];
+       list[j]=list[pivot];
+       list[pivot]=temp;
+       quicksort(list,low,j-1);
+       quicksort(list,j+1,high);
+      }
+      }
+```
+      
+## OUTPUT OF PROGRAM
+ ```c
+       1914109@computer-centre:~/public_html/PPS/Content/Programs/Week02/1914109$ ./a.out 
+       enter no of elements5
+                     12
+                     4
+                     23
+                     14
+                      2
+        after applying sort2
+                     4
+                    12
+                    14
+                    23
+```
+---------------------------------------------------------------------------------------------------------------------------------------                    
