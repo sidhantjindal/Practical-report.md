@@ -6,7 +6,7 @@
 ## ROLL NO-*1914109*
 ## BRANCH-*CIVIL*
 ## SECTION-*CE(B2)*
-![LOGO](https://blog.coachingkaro.org/wp-content/uploads/2019/07/logo.jpg)
+![image](https://user-images.githubusercontent.com/56110295/227852846-5528d668-b035-404c-a9b3-3c3527f671c7.png)
 ## **DEPARTMENT OF CIVIL ENGENEERING**
 # **GURU NANAK DEV ENGENEERING COLLEGE,LUDHIANA**
 
